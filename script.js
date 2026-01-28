@@ -40,6 +40,10 @@ button.addEventListener('click', (e)=>{
     if(e.target.classList.contains("btn")){
         digit.textContent += e.target.textContent 
     }
+
+    if (e.target.classList.contains("clear")){
+        digit.textContent = ""
+    }
 });
 
 
