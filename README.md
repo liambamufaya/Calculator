@@ -6,7 +6,7 @@ The project focuses on practicing JavaScript **state management**, **event deleg
 ---
 
 ## 🚀 Live Demo
-*(Add link here once deployed)*
+(https://liambamufaya.github.io/Calculator/)
 
 ---
 
