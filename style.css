@@ -7,13 +7,13 @@
 #container {
     width: 350px;
     height: 420px;
-    border: solid 2px blue;
+    border: solid 1px #9b9bac;
     padding: 20px;
     margin-left: 35px;
 }
 
   #panel {
-    border: 1px solid;
+    border: 1px solid  #9b9bac;
     width: 306px;
     height: 60px;
     display: inline-block;
@@ -33,15 +33,28 @@
   .btn {
     width: calc((100%) /5);
     height: 50px;
-    border: 1px rgb(0, 0, 0) solid;
+    border: none;
+    padding: 12px 20px;
+     border-radius: 6px;
     text-align: center;
     align-content: center;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+
+    transition: 
+      background-color 0.2s ease,
+      transform 0.15s ease, 
+      box-shadow 0.15s ease;
   }
-  
+
+
+
+
   #wide {
     flex: auto;
   }
 
   body {
-    background-color: rgb(90, 112, 133)
+    background-color: rgb(255, 255, 253)
   }
